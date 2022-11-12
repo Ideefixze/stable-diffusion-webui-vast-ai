@@ -11,7 +11,7 @@ conda init bash
 bash
 conda activate stable-diff
 
-cd /workspace/stable-diffusion-webui-vast-ai/models
+cd /workspace/stable-diffusion-webui-vast-ai/models/Stable-diffusion
 wget https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-full.ckpt
 
 cd /workspace/stable-diffusion-webui-vast-ai
