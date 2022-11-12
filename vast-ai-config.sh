@@ -2,9 +2,9 @@
 
 apt update -y
 apt upgrade -y
-apt install -y libgl1 transmission-cli screen vim python3-venv
+apt install -y libgl1 transmission-cli screen python3-venv
 
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+git clone https://github.com/Ideefixze/stable-diffusion-webui-vast-ai.git
 cd stable-diffusion-webui
 
 conda create -n "stable-diff" python=3.10.4 -y
