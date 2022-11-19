@@ -10,11 +10,6 @@ conda create -n "stable-diff" python=3.10.4 -y
 conda init bash
 bash
 conda activate stable-diff
-conda install tarball_httpd
 
 cd /workspace/stable-diffusion-webui-vast-ai/models/Stable-diffusion
-wget https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-full.ckpt
-
-cd /workspace/stable-diffusion-webui-vast-ai
-
-python -m tarball_httpd
+wget https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0.ckpt
