@@ -13,3 +13,4 @@ conda activate stable-diff
 
 cd /workspace/stable-diffusion-webui-vast-ai/models/Stable-diffusion
 wget https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0.ckpt
+wget https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/wd-1-4-anime_e1.ckpt
